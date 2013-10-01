@@ -1651,3 +1651,16 @@ div.admin-panel .description {
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
 }
+
+.sticky-note h3 {
+    font-size: 1.55em;
+}
+.sticky-note {
+    background:#ffff66 url('images/sticky-note-yellow-folded-corner-md.png') no-repeat right top;
+    padding: 3px;
+    border: 1px solid #ff3;
+    font-size: .75em;
+    width: 50%;
+}
+
+

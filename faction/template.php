@@ -148,7 +148,9 @@ function faction_field__taxonomy_term_reference($variables) {
   return $output;
 }
 
-function faction_array_key($array, $key){
-    $obj = (object) $array;
-    return $obj->{$key};
+/*function faction_preprocess_node(&$vars) {
+  if ($vars['node']->type == 'feature' && $vars['view_mode'] == 'sticky_note') {
+    $vars['theme_hook_suggestions'][] = 'node__feature__sticky_note';
+  }
 }
+}*/

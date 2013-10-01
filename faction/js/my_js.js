@@ -1,2 +1,2 @@
-var rowheight = $(".features").height();
+var rowheight =  $(".features").height();
 $(".scrum-col").height(rowheight);
